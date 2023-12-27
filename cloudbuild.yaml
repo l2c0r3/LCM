@@ -1,0 +1,26 @@
+steps:
+  - id: 'build-and-publish-webui'
+    name: 'gcr.io/cloud-builders/mvn'
+    args: [
+      'clean', 'package',
+      '-Dquarkus.quinoa.package-manager-install=true',
+      '-Dquarkus.quinoa.package-manager-install.node-version=21.5.0',
+      '-Dquarkus.container-image.registry=gcr.io',
+      '-Dquarkus.container-image.build=true',
+      '-Dquarkus.container-image.push=true',
+      '-Dquarkus.container-image.group=$PROJECT_ID/lcm',
+      '-Dquarkus.container-image.name=webui',
+      '-Dquarkus.container-image.tag=$SHORT_SHA'
+    ]
+    dir: 'web-ui'
+
+  # Deploy on GKE
+  - id: 'deploy-webui'
+    name: "gcr.io/cloud-builders/gke-deploy"
+    args:
+      - run
+      - --filename=web-ui/target/kubernetes/kubernetes.yml
+      - --image=gcr.io/$PROJECT_ID/lcm/webui:$SHORT_SHA
+      - --cluster=${_CONTAINER_CLUSTER}
+      - --location=${_CONTAINER_COMPUTE_ZONE}
+    waitFor: ['build-and-publish-webui']

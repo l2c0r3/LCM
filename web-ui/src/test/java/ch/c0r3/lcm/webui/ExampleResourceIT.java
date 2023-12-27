@@ -1,4 +1,4 @@
-package com.example;
+package ch.c0r3.lcm.webui;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
