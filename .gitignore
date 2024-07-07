@@ -1,0 +1,4 @@
+.quinoa/
+target/
+node_modules/
+.svelte-kit/
