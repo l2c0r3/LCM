@@ -25,7 +25,6 @@
 
     <modules>
         <module>warehouse</module>
-        <module>web-ui</module>
     </modules>
 
 </project>
