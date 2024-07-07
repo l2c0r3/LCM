@@ -24,7 +24,7 @@
     </properties>
 
     <modules>
-        <module>warehouse</module>
+        <module>webshop</module>
     </modules>
 
 </project>
