@@ -8,10 +8,9 @@
     </NavBrand>
     <NavHamburger  />
     <NavUl >
-        <NavLi href="/">Home</NavLi>
-        <NavLi href="/about">About</NavLi>
-        <NavLi href="/docs/components/navbar">Navbar</NavLi>
-        <NavLi href="/pricing">Pricing</NavLi>
+        <NavLi href="/shop">Shop</NavLi>
+        <NavLi href="/gallery">Gallery</NavLi>
         <NavLi href="/contact">Contact</NavLi>
+        <NavLi href="/about">About</NavLi>
     </NavUl>
 </Navbar>
