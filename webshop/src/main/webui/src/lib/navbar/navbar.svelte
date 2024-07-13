@@ -9,7 +9,7 @@
 {#if !isHomePage}
     <Navbar>
         <NavBrand href="/">
-            <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo"/>
+            <img src="/images/logo_with_name.png" class="me-3 h-6 sm:h-9" alt="Flowbite Logo"/>
         </NavBrand>
         <NavHamburger/>
         <NavUl>

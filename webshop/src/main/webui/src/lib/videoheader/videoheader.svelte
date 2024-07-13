@@ -8,7 +8,7 @@
     <div class="absolute top-0 left-0 w-full z-30">
         <Navbar class="bg-opacity-50 bg-black">
             <NavBrand href="/">
-                <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="Flowbite Logo"/>
+                <img src="/images/logo_with_name.png" class="me-3 h-6 sm:h-9" alt="Flowbite Logo"/>
                 <span class="self-center whitespace-nowrap text-xl font-semibold text-white">LCM Bienenhof</span>
             </NavBrand>
             <NavHamburger class="text-white"/>
