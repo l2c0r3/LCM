@@ -12,7 +12,7 @@
                 <span class="self-center whitespace-nowrap text-xl font-semibold text-white">LCM Bienenhof</span>
             </NavBrand>
             <NavHamburger class="text-white"/>
-            <NavUl class="">
+            <NavUl classUl="bg-gray-0">
                 <NavLi class="text-white" href="/shop">Shop</NavLi>
                 <NavLi class="text-white" href="/gallery">Gallery</NavLi>
                 <NavLi class="text-white" href="/contact">Contact</NavLi>
