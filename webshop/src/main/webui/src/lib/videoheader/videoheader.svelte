@@ -4,7 +4,7 @@
 
 <!-- https://dev.to/dailydevtips1/tailwind-css-full-screen-video-header-5539 -->
 
-<header class="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
+<header class="relative flex items-center justify-center h-screen overflow-hidden">
     <div class="absolute top-0 left-0 w-full z-30">
         <Navbar class="bg-opacity-50 bg-black">
             <NavBrand href="/">
@@ -22,7 +22,7 @@
     </div>
 
 
-    <div class="relative text-white bg-opacity-50 z-30 p-5 text-center">
+    <div class="relative text-white z-30 text-center">
         <div class="mb-6">
             <div class="text-7xl font-bold">
                 LCM-Bienenhof
