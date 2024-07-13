@@ -1,12 +1,14 @@
+<script>
+    import Videoheader from '$lib/videoheader/videoheader.svelte'
+</script>
+
 <svelte:head>
-    <title>Homepage of </title>/
+    <title>LCM Bienenhof | Startseite</title>/
 </svelte:head>
 
-<div class="bg-indigo-300 ...">
-    <img class="object-cover h-48 w-96">
-</div>
+<Videoheader></Videoheader>
 
-<h1>Welcome to SvelteKit</h1>
+<h1>Welcome to b</h1>
 
 
 
