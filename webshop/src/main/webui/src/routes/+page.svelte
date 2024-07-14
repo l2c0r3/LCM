@@ -13,7 +13,7 @@
 
 <main>
     <div class="flex flex-col items-center">
-        <h2 class="text-center mb-8">Unsere Produkte</h2> <!-- mb-8 fügt Abstand hinzu -->
+        <h2 class="text-center mb-8">Ein paar unsere Produkte</h2> <!-- mb-8 fügt Abstand hinzu -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {#each products as product}
                 {#if product.inShowroom}
@@ -37,7 +37,11 @@
         </div>
     </div>
 
-    <h2 class="mb-8 mt-8">Warum Honig aus Staldenried (Kanton Wallis)?</h2>
+    <div>
+        <h2 class="mb-8 mt-8 text-center">Warum Honig aus Staldenried?</h2>
+    </div>
+
+
 
 
 </main>
